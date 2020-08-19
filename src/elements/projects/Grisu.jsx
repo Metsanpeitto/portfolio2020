@@ -1,15 +1,9 @@
 import React, { Component } from "react";
 import PageHelmet from "../../component/common/Helmet";
-import ModalVideo from "react-modal-video";
-import {
-  FaTwitter,
-  FaInstagram,
-  FaFacebookF,
-  FaLinkedinIn,
-} from "react-icons/fa";
+
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../../component/header/HeaderThree";
+import Header from "../../component/header/Header";
 import Footer from "../../component/footer/Footer";
 
 class Grisu extends Component {
@@ -67,13 +61,15 @@ class Grisu extends Component {
                       convenience. Wordpress page,build using Divi themes, based
                       on PHP and MySQL.
                     </p>
-
                     <div className="portfolio-view-list d-flex flex-wrap">
                       <div className="port-view">
                         <span>Technologies</span>
                         <h4>Wordpress, Woocommerce, Stripe, Divi.</h4>
                       </div>
-                    </div>
+                    </div>{" "}
+                    <a href="https://grisuworkwear.com/">
+                      <p>https://grisuworkwear.com/</p>
+                    </a>
                   </div>
                   <div className="portfolio-thumb-inner">
                     <div className="thumb mb-20pc mt-10pc">

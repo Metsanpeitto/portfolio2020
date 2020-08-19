@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { FiCast, FiLayers, FiUsers, FiMonitor } from "react-icons/fi";
 import HtmlCss from "../../icons/HtmlCss";
 import Android from "../../icons/Android";
 import Node from "../../icons/Node";
@@ -56,7 +55,7 @@ class ServiceThree extends Component {
         <div className="row">
           {ServiceContent.map((val, i) => (
             <div className={`${column}`} key={i}>
-              <a className="invisible-button">
+              <button className="invisible-button">
                 <div className="service service__style--2">
                   <div className="icon">{val.icon}</div>
                   <div className="content">
@@ -64,7 +63,7 @@ class ServiceThree extends Component {
                     <p>{val.description}</p>
                   </div>
                 </div>
-              </a>
+              </button>
             </div>
           ))}
         </div>

@@ -16,7 +16,7 @@ import "react-toastify/dist/ReactToastify.css";
 const SlideList = [
   {
     textPosition: "text-left",
-    category: "Welcome to my World",
+    category: "Welcome to  Waldenberg",
     description: "",
     buttonText: "",
     buttonLink: "",
@@ -47,7 +47,7 @@ const PortfolioLanding = () => {
               params={{
                 particles: {
                   number: {
-                    value: 50,
+                    value: 150,
                   },
                   size: {
                     value: 4,
@@ -61,6 +61,7 @@ const PortfolioLanding = () => {
                     },
                   },
                 },
+                Super: null,
               }}
             />
           </div>
@@ -79,10 +80,22 @@ const PortfolioLanding = () => {
                         <h1 className="title">
                           Hi, I’m Abraham <br />
                           <TextLoop>
-                            <span> Frontend Developer</span>
-                            <span> Backend Developer</span>
-                            <span> Ecommerce Developer</span>
-                            <span> Wordpress Developer</span>
+                            <span className="text-loop">
+                              {" "}
+                              Frontend Developer
+                            </span>
+                            <span className="text-loop">
+                              {" "}
+                              Backend Developer
+                            </span>
+                            <span className="text-loop">
+                              {" "}
+                              Ecommerce Developer
+                            </span>
+                            <span className="text-loop">
+                              {" "}
+                              Wordpress Developer
+                            </span>
                           </TextLoop>{" "}
                         </h1>
                         <h2>based in Europe.</h2>
@@ -159,7 +172,7 @@ const PortfolioLanding = () => {
                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
                   <h2 className="title">Some of my Skills</h2>
                   <p>
-                    There are some of the technologies that I am more familiar
+                    These are some of the technologies that I am more familiar
                     with.
                   </p>
                 </div>
@@ -196,18 +209,6 @@ const PortfolioLanding = () => {
                   column="col-lg-4 col-md-6 col-sm-6 col-12"
                   item="6"
                 />
-              </div>
-              <div className="row">
-                <div className="col-lg-12">
-                  <div className="view-more-btn mt--60 mt_sm--30 text-center">
-                    <a
-                      className="rn-button-style--2 btn-solid"
-                      href="/portfolio"
-                    >
-                      <span>View More</span>
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
           </div>

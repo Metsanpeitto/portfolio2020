@@ -1,15 +1,9 @@
 import React, { Component } from "react";
 import PageHelmet from "../../component/common/Helmet";
-import ModalVideo from "react-modal-video";
-import {
-  FaTwitter,
-  FaInstagram,
-  FaFacebookF,
-  FaLinkedinIn,
-} from "react-icons/fa";
+
 import ScrollToTop from "react-scroll-up";
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../../component/header/HeaderThree";
+import Header from "../../component/header/Header";
 import Footer from "../../component/footer/Footer";
 
 class Nurumia extends Component {
@@ -62,8 +56,8 @@ class Nurumia extends Component {
                     </p>
                     <p>
                       It includes a Chat, Shared Calendar task manager, and I
-                      create a PHP API to handle the information received from
-                      IoT devices that I also designed and manufactured.
+                      have create a PHP API to handle the information received
+                      from IoT devices that I also designed and manufactured.
                       Developed with ReactJS and NodeJs. It uses Firebase to
                       store and filter the data. As well, as a way to
                       authenticate the users. For the data received from the
@@ -78,6 +72,9 @@ class Nurumia extends Component {
                         </h4>
                       </div>
                     </div>
+                    <a href="https://nurumia.com/">
+                      <p>https://nurumia.com</p>
+                    </a>
                   </div>
                   <div className="portfolio-thumb-inner">
                     <div className="thumb mb-20pc mt-10pc">

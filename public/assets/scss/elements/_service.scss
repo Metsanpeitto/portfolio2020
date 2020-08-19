@@ -15,7 +15,7 @@
     text-shadow: none;
     display: none;
     text-align: none;
-    align-items: nonenone;
+    align-items: none;
     cursor: default;
     background-color: none;
     box-sizing: none;
@@ -234,8 +234,6 @@
       font-size: 15px;
       line-height: 24px;
     }
-    a {
-    }
   }
 }
 
@@ -325,10 +323,24 @@
         display: flex;
         height: 100%;
       }
+      .invisible-button {
+        appearance: none;
+        -webkit-writing-mode: none;
+        cursor: default;
+        background-color: none;
+        box-sizing: none;
+        border-width: none;
+        border-style: none;
+        border-color: none;
+        border-image: none;
+        display: flex !important;
+        height: 100% !important;
+      }
       .service {
         &.service__style--2 {
           margin-top: 30px;
           background: #f6f6f6;
+          height: 90% !important;
         }
       }
     }

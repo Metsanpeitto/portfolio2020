@@ -36,6 +36,18 @@
   }
 }
 
+.thumbnail {
+  @media #{$md-layout} {
+    display: flex;
+  }
+  img {
+    @media #{$md-layout} {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
 /*==========================
     Contact Address 
 ============================*/

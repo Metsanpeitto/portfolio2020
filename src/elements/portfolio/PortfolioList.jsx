@@ -38,7 +38,7 @@ class PortfolioList extends Component {
                 <div className="inner">
                   <p>{value.category}</p>
                   <h4>
-                    <a href="/portfolio-details">{value.title}</a>
+                    <a href={value.href}>{value.title}</a>
                   </h4>
                   <div className="portfolio-button">
                     <a className="rn-btn" href={value.href}>

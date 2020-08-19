@@ -92,6 +92,10 @@ font-family: 'Poppins', sans-serif;
   color: #c6c9d8 !important;
 }
 
+.display-flex {
+  display: flex;
+}
+
 /*===============================
     Background Color 
 =================================*/
@@ -139,6 +143,7 @@ font-family: 'Poppins', sans-serif;
 }
 .bg_grisu {
   background-image: url(/assets/images/bg/grisuHeader.jpg) !important;
+  background-position: unset !important;
 }
 .bg_delprado {
   background-image: url(/assets/images/bg/delpradoHeader.jpg) !important;

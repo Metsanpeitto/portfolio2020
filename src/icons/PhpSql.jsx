@@ -39,7 +39,7 @@ function PhpSql() {
       </defs>
       <g transform="matrix(.15914 0 0 -.15914 -1.833 52.237)">
         <g>
-          <g clip-path="url(#clipPath3444)">
+          <g clipPath="url(#clipPath3444)">
             <g>
               <g>
                 <path
@@ -52,7 +52,7 @@ function PhpSql() {
           </g>
         </g>
         <g>
-          <g clip-path="url(#clipPath3468)">
+          <g clipPath="url(#clipPath3468)">
             <g transform="translate(288 27.36)">
               <path
                 fill="#777bb3"
@@ -65,7 +65,7 @@ function PhpSql() {
           </g>
         </g>
         <g>
-          <g clip-path="url(#clipPath3480)">
+          <g clipPath="url(#clipPath3480)">
             <g transform="translate(161.734 145.307)">
               <path
                 fill="#000"
@@ -149,4 +149,3 @@ function PhpSql() {
 }
 
 export default PhpSql;
-

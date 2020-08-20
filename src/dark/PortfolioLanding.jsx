@@ -31,7 +31,7 @@ const PortfolioLanding = () => {
   return (
     <div className="active-dark">
       <ToastContainer />
-      <Helmet pageTitle="Portfolio Landing" />
+      <Helmet pageTitle="Abraham's Portfolio" />
 
       <Header homeLink="/" logo="symbol-dark" color="color-black" />
       {/* Start Slider Area   */}

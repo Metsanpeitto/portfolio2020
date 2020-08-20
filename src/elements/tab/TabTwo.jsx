@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { Link } from "react-router-dom";
+
 class TabsTwo extends Component {
   render() {
     let tab1 = "Main skills",
